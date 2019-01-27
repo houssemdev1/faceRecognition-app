@@ -1,0 +1,121 @@
+.myContainer
+{
+    background-image : url('../../assets/background.png');
+    background-repeat: no-repeat;
+   
+    padding-top: 1%;
+    padding-bottom: 5%;
+
+}
+
+.card-signin {
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-signin .card-title {
+  margin-bottom: 2rem;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.card-signin .card-body {
+  padding: 2rem;
+}
+
+body{
+  color: #fff;
+}
+
+
+
+
+
+.login-form .form-group {
+  margin-bottom:10px;
+}
+.login-form{ text-align:center;}
+.forgot a {
+  color: #e8e6e6bd;
+  font-size: 14px;
+  text-decoration: underline;
+}
+.login-form  .btn.btn-primary {
+  background:rgba(46, 67, 171, 0.8) none repeat scroll 0 0;
+  color: #ffffff;
+  font-size: 14px;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  padding: 0;
+}
+.forgot {
+  text-align: left; margin-bottom:30px;
+}
+.botto-text {
+  color: #ffffff;
+  font-size: 14px;
+  margin: auto;
+}
+.login-form .btn.btn-primary.reset {
+  background: #ff9900 none repeat scroll 0 0;
+}
+.back { text-align: left; margin-top:10px;}
+.back a {color: #444444; font-size: 13px;text-decoration: none;}
+
+#log{
+  padding-top: 12%;
+}
+
+.btn-google {
+  color: #fff;
+  background-color: #dd4b39;
+  border-color: rgba(0,0,0,0.2);
+}
+
+.card{
+
+
+  margin-top:5%;
+  width: 350px;
+  background-color: rgba(0,0,0,0.22) !important;
+}
+
+input{
+  border-radius: 0% !important;
+}
+p{
+  text-align: center;
+  color: #bfbcbc;
+  font-size: 13px;
+}
+.illustration {
+  text-align:center;
+  padding:15px 0 20px;
+  font-size:100px;
+  color:#2980ef;
+}
+
+.btn-social>:first-child {
+  position: relative;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 32px;
+  line-height: 18px;
+  font-size: 1.4em;
+  text-align: center;
+  border-right: 1px solid rgba(0,0,0,0.2);
+}
+
+.fa {
+  margin: 0% 0% 0% -15%;
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+

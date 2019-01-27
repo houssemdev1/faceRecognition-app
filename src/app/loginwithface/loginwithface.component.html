@@ -1,0 +1,55 @@
+<div class="container-fluid myContainer" style="padding: 5%;">
+  <div class="text-center text-white">
+    <h1>Login With Face</h1>
+  </div>
+
+  <div class="d-flex justify-content-center h-100">
+
+    <div class="card carte">
+
+      <div class="card-body">
+
+        <div class="row justify-content-center align-item-center" style="margin-bottom:2%;">
+
+          <h5>Center your face, smile and Take a photo</h5>
+
+        </div>
+        <div class="row align-item-center justify-content-center ">
+          <div class="col-6 div">
+            <div>
+                <div style="display: flex; justify-content: center; align-items: center" *ngIf="isloding">
+                    <mat-progress-spinner  color="primary" mode="indeterminate">
+                    </mat-progress-spinner>
+                  </div>
+              <video #video id="video" style="border: 1px solid #FFFFFF; margin-left: 12%;" width="208" height="160"
+                autoplay class="vid">
+
+              </video></div>
+            <canvas #canvas id="canvas" width="600" height="480" style="visibility: hidden; display: none;"></canvas>
+
+
+          </div>
+        </div>
+        <div class="row justify-content-center align-item-center" style="margin-bottom:2%;">
+
+          <button type="button" class="btn btn-primary" (click)="verifyTabImg()" style="padding-left:10%;padding-right:10%;">
+            Take Picture </button>
+
+        </div>
+
+
+
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!--
+<div class="container">
+  <video #video id="video" width="640" height="480" autoplay></video>
+  <button (click)="verifyTabImg()" class="btn btn-primary">Take Photo</button>
+  <canvas #canvas id="canvas" width="640" height="480"></canvas>
+</div>
+-->

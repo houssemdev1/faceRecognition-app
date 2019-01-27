@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+#particles-js canvas{
+  background: #444444;
+  width: 100%;
+  position: absolute;
+  z-index:1 !important;
+}
+
+*{z-index:1000 !important}
+section{
+  margin:0;
+  padding: 0;
+  height: 100vh;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

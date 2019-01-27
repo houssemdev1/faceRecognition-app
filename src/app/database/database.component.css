@@ -1,0 +1,23 @@
+.cont{
+  background-image: url('../../assets/Abstract-Convex-circle-spheres-HD-background-animation-light-reveal-3-blue-img.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  padding:2%;
+}
+h2,h3,h4,h5,h6{
+  color: whitesmoke;
+}
+
+
+.div{
+border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 1px solid #FFFFFF;
+width: 100%;
+margin: 1%;
+padding: 1%;
+color: whitesmoke;
+background-color: rgba(116,120,125,0.8);
+}

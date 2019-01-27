@@ -1,0 +1,31 @@
+.cont{
+  background-image: linear-gradient(to right top, #020225, #040f35, #031746, #041e57, #062569);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+h1, h2, h3{
+  color: whitesmoke;
+}
+.div{
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 1px solid #FFFFFF;
+  width: 100%;
+  margin: 1%;
+  padding: 1%;
+  color: whitesmoke;
+  background-color: rgba(116,120,125,0.8);
+}
+#rectangle{
+  position:absolute;
+
+
+  border:2px solid orangered;
+  background-color:transparent
+}
+.wrapper{
+  position:relative;
+}

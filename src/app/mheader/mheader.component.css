@@ -1,0 +1,64 @@
+.myContainer
+{
+    background-image : url('../../assets/background.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+        
+
+}
+.navv{
+    background-color: rgba(211,211,211, 0.7);
+    width: 100%;
+}
+.carte
+{
+    background-color: rgba(211,211,211, 0.7);
+
+    width: 50%;
+    height: 100%;
+    margin-top: 5%;
+}
+.logos
+{
+    background-color:#060317;
+    width: 50%;
+    height: 100%;
+}
+span{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-right: 8%;
+    margin-right: 8%;
+}
+.cardinfo
+{
+    color:#060317;
+    margin-left: 2%;
+    margin-bottom:0%;
+    color: whitesmoke;
+}
+.button {
+    background: rgba(255,255,255,0);
+
+    border: 2px solid white; /* Green */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+}
+.imgcircle {
+    border-radius: 50%;
+    border: 3px solid #060317;
+
+}
+@font-face {
+    font-family: 'MaSuperPolice';
+    src: url('../../assets/docktrin.ttf');
+}
+h1
+{
+
+    font-size: 4rem;
+}

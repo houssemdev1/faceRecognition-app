@@ -1,0 +1,52 @@
+<div class="container-fluid myContainer" style="padding: 5%;">
+
+    <div class="d-flex justify-content-center h-100">
+
+        <div class="card carte">
+
+            <div class="card-body">
+
+                <div class="row justify-content-center align-item-center" style="margin-bottom:2%;">
+                    <h3>Admin Login</h3>
+
+                </div>
+                <div class="row justify-content-center align-item-center" style="margin-bottom:1%;">
+                <img class="rounded mx-auto d-block" src="../../assets/téléchargement.png" style="width:30%; height:30%; ">
+                </div>
+                <div class="row justify-content-center">
+                <p style="color:white;">Please enter your email and password</p>
+            </div>
+
+                <form>
+
+                    <span class="input-group form-group">
+                        <input type="email" class="form-control" name="username" required="" [(ngModel)]="email"
+                            name="mail" id="inputEmail" placeholder="Email Address" />
+                    </span>
+
+                    <span class="input-group form-group">
+                        <input type="password" class="form-control" [(ngModel)]="password" name="pwd" id="inputPassword"
+                            placeholder="Password" required="" />
+                    </span>
+
+                    <span class="input-group form-group">
+                        <button class="btn btn-lg btn-primary btn-block" style="border: 1px solid #FFFFFF;" type="submit">Login with your face</button>
+
+                            <a class="btn btn-block btn-social btn-google" style="border: 2px solid #FFFFFF;" (click)="GoogleLogin()" type="submit">
+                                    <span class="fa fa-google"></span> Sign in with Google
+                                  </a>
+                    </span>
+
+
+
+                </form>
+                <div class="row align-item-center justify-content-center text-center">
+                    <a class="text-center" style="color:white; font-size:1rem; margin:2%;">Create New account With your Face </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+

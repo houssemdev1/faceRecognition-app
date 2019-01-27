@@ -1,0 +1,49 @@
+.cont{
+  background-image: url('../../../assets/Abstract-Convex-circle-spheres-HD-background-animation-light-reveal-3-blue-img.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  padding-bottom: 3%;
+}
+ h1,h4{
+    color: whitesmoke;
+}
+
+
+
+.div{
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 1px solid #FFFFFF;
+  width: 100%;
+  margin: 1%;
+  padding: 1%;
+  color: whitesmoke;
+  background-color: rgba(116,120,125,0.8);
+}
+.vid{
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 1px solid rgb(4, 122, 218);
+
+    color: whitesmoke;
+
+}
+
+.btn {
+    background-color: DodgerBlue; /* Blue background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+    width:50%;
+
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+    background-color: RoyalBlue;
+}

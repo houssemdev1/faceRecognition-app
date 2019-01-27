@@ -1,0 +1,61 @@
+<div class="container-fluid text-center cont" style="padding-top: 1%; padding-bottom: 3%; ">
+
+  <div class="row align-item-center justify-content-center" style="padding:1%;">
+    <h3 style="color: whitesmoke;"> Faces Comparison </h3>
+  </div>
+  <div class="row align-item-center justify-content-center">
+    <div class="col-4 div" style="margin:2%; padding-bottom: 3%;">
+
+      <h5>Select your first Image:</h5>
+      <br>
+      <form>
+        <input type="file" style="margin-bottom: 2%;" (change)="preview($event)" accept="image/*">
+        <br>
+        <canvas #mycanvas1 width="300" height="300" style="border:2px solid blue;"> </canvas>
+      </form>
+
+    </div>
+    <div class="col-4 div" style="margin:2%;padding-bottom: 3%;">
+      <h5>Select your Second Image:</h5>
+      <br>
+      <form>
+        <input type="file" style="margin-bottom: 2%;" (change)="preview2($event)" accept="image/*">
+        <br>
+        <canvas #mycanvas2 width="300" height="300" style="border:2px solid blue;"> </canvas>
+      </form>
+
+    </div>
+
+
+  </div>
+
+  <div class="row align-item-center justify-content-center">
+    <button type="button" class="btn btn-primary" (click)="capture1();capture2();getData()" style="padding-left:10%;padding-right:10%;">Compare
+      Faces</button>
+  </div>
+
+  <div class="row align-item-center justify-content-center">
+    <div class="col-4 div">
+      <h4> Data Verification: </h4>
+      <h4> Is the same: <span [ngStyle]="isTrue? {'color': 'green'} : {'color': 'red'}" class="true"> {{ isTrue }} </span>  </h4>
+      <h4> Confidence: {{ percent }} % </h4>
+      <!--
+             <circle-progress
+  [percent]="{{ percent }}"
+  [radius]="100"
+  [outerStrokeWidth]="10"
+  [innerStrokeWidth]="4"
+  [outerStrokeColor]="'#78C000'"
+  [innerStrokeColor]="'#C7E596'"
+  [animation]="true"
+  [animationDuration]="300"
+></circle-progress>
+              -->
+    </div>
+
+  </div>
+
+
+
+
+</div>

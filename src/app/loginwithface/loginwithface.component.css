@@ -1,0 +1,19 @@
+.myContainer
+{
+    background-image : url('../../assets/background.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 1%;
+    padding-bottom: 5%;
+
+}
+
+.carte
+{
+    background-color: rgba(211,211,211, 0.5);
+    border: 1px solid #FFFFFF;
+    width: 50%;
+    height: 100%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}

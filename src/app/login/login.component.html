@@ -1,0 +1,57 @@
+<div class="container-fluid myContainer" >
+
+  <div class="d-flex justify-content-center h-100">
+
+    <div class="card">
+
+      <div class="card-body">
+
+        <div class="row justify-content-center" style="font-size:3rem; color:black;">
+          <h3 style="color:whitesmoke">Login</h3>
+        </div>
+        <!--<div class="row justify-content-center">
+            <p>Please enter your email and password</p>
+          </div>-->
+        <div class="illustration"><i class="icon ion-ios-locked-outline"></i></div>
+        <form>
+
+          <span class="input-group form-group">
+            <input type="email" class="form-control" name="username" required="" [(ngModel)]="email" name="mail" id="inputEmail"
+              placeholder="Email Address" />
+          </span>
+          <div >
+
+         </div>
+
+          <span class="input-group form-group">
+            <input type="password" class="form-control" [(ngModel)]='password' name="pwd" id="inputPassword"
+              placeholder="Password" required="" />
+          </span>
+
+          <span class="input-group form-group">
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+
+            <button class="btn btn-lg btn-primary btn-block" routerLink="loginwithface" type="submit">
+              <i class="fas fa-camera-retro" style="font-size:1,5rem; padding-right: 20px; color:#9fb1bd">
+              </i>
+
+              Login With face
+
+            </button>
+
+            <a class="btn btn-block btn-social btn-google" (click)="GoogleLogin()" type="submit">
+              <i class="fa fa-google" style="font-size:1,5rem; padding-right: 20px; color:#9fb1bd"></i> Sign in with
+              Google
+            </a>
+          </span>
+
+          <p>Forgot your email or password ?</p>
+          <div class="text-center">
+            <a routerLink="createAccount" style="font-size:1.2rem; color:#0b41d6e0;">Create account</a>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</div>
